@@ -1,7 +1,8 @@
 title: Ninad Jadhav
 description: CS Grad Student at Arizona State University
 show_downloads: true
-theme: jekyll-theme-hacker
+#theme: jekyll-theme-hacker
+theme: minima
 google_analytics: UA-115328027-1
 email: jadhavhninad@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
