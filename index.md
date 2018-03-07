@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [](#header-1)Neural Network Classifier for MNIST DataSet
+# [](#header-2)Neural Network Classifier for MNIST DataSet
 [Link to Github Repo](https://github.com/jadhavhninad/Neural-Network-Classifier-for-MNIST-DataSet).
 
 ### [](#header-3) Goals:
@@ -18,9 +18,9 @@ To implement a two layer neural network for a binary classifier and a multi laye
 *   Plot of train error vs iterations
 *   Plot of K-value vs Error (for kNN)
 
-<br></br>
-<br></br>
-# [](#header-1)Latent Semantics Based Movie Recommender System
+<br>
+<br>
+# [](#header-2)Latent Semantics Based Movie Recommender System
 [Link to Github Repo](https://github.com/jadhavhninad/Latent-Semantics-Based-Movie-Recommender-System).
 
 ### [](#header-3) Goals:
@@ -40,9 +40,9 @@ A movie recommender system that takes user feedback to improve the recommendatio
 *   The system outputs the revisions it suggests.
 *   User feedback is taken into account (either by revising the query or by re-ordering the results as appropriate) and a new set of ranked results are returned.
 
-<br></br>
-<br></br>
-# [](#header-1)Linux Barrier Mechanism for multi threaded program
+<br>
+<br>
+# [](#header-2)Linux Barrier Mechanism for multi threaded program
 [Link to Github Repo](https://github.com/jadhavhninad/Linux-Barrier-Mechanism-for-multi-threaded-program).
 
 ### [](#header-3) Goals:
@@ -63,7 +63,8 @@ To demonstrate your barrier implementation, a testing program should be develope
 ### [](#header-3) Output:
 *   New Kernal image.
 
-<br></br>
+<br>
+
 ---
 
 
