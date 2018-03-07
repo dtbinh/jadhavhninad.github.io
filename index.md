@@ -10,11 +10,24 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# [](#header-1)Header 1
+# [](#header-1)Neural Network Classifier for MNIST DataSet
+[Link to Github Repo](https://github.com/jadhavhninad/Neural-Network-Classifier-for-MNIST-DataSet).
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+# [](#header-3) Goals:
+To implement a two layer neural network for a binary classifier and a multi layer neural network for a multiclass classifier. Compare performance with K-Nearest Neighbour approach for same dataset size.
 
-## [](#header-2)Header 2
+# [](#header-3) Implementation:
+*   The two layer network has 1 hidden layer dimension=500, for binary classification. The multilayer neural network program is able to create and train a multilayer network based on command line arguments. 
+*   Two approaches for K-Nearest Neighbour have been tried - using the default python package and building the algorithm from scratch. 
+*   Since the MNIST dataset has 60,000 images which is too large for batch gradient descent. Therefore, training is done with 6000 samples and test with 1000 samples.
+
+# [](#header-3) Output:
+*   The training and testing accuracies. 
+*   Plot of train error vs iterations
+*   Plot of K-value vs Error (for kNN)
+
+
+## [](#header-1)Header 2
 
 > This is a blockquote following a header.
 >
