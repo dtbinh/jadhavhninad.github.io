@@ -4,4 +4,9 @@ show_downloads: false
 theme: jekyll-theme-hacker
 google_analytics: UA-115328027-1
 
+mygithub:
+  url: https://github.com/jadhavhninad/
+
+linkedin:
+  url: https://www.linkedin.com/in/nj-asu-grad/
 
