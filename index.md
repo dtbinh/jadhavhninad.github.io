@@ -2,8 +2,6 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
-
 # [](#header-1)Neural Network Classifier for MNIST DataSet
 [Link to Github Repo](https://github.com/jadhavhninad/Neural-Network-Classifier-for-MNIST-DataSet).
 
@@ -21,110 +19,56 @@ To implement a two layer neural network for a binary classifier and a multi laye
 *   Plot of K-value vs Error (for kNN)
 
 
-## [](#header-1)Header 2
+# [](#header-1)Latent Semantics Based Movie Recommender System
+[Link to Github Repo](https://github.com/jadhavhninad/Latent-Semantics-Based-Movie-Recommender-System).
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+### [](#header-3) Goals:
+A movie recommender system that takes user feedback to improve the recommendation. The system is developed using SVD matrix factorization and optimized using ALS method 
 
-### [](#header-3)Header 3
+### [](#header-3) Implementation:
+*   A program which, given all the information available about movies a given user has watched, recommends the user 5 more movies to watch, using SVD.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+*   The order in which the movies are watched and the recency is taken into account.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+*   The result interface allows the user to provide positive and/or negative feedback for the ranked results returned by the system to enable Task  Relevance feedback.
 
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
+*   Relevance feedback loop is implemented to improve the accuracy of recommendation. 
 
 
-### Definition lists can be used with HTML syntax.
+### [](#header-3) Output:
+*   The system outputs the revisions it suggests.
+*   User feedback is taken into account (either by revising the query or by re-ordering the results as appropriate) and a new set of ranked results are returned.
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+# [](#header-1)Linux Barrier Mechanism for multi threaded program
+[Link to Github Repo](https://github.com/jadhavhninad/Linux-Barrier-Mechanism-for-multi-threaded-program).
 
-```
-The final element.
-```
+### [](#header-3) Goals:
+Develope a barrier synchronization mechanism in Linux kernel which can be invoked by user processes via system call interface. The mechanism consists of 3 Linux kernel system calls which are resemble to the pthread barrier i.e barrier-init, barrier-wait, barrier_destroy
+
+### [](#header-3) Implementation:
+A barrier synchronization synchronization mechanism was developed in Linux kernel which can be invoked by user processes via system call interface. The mechanism consists of 3 Linux kernel system calls which are resemble to the pthread barrier:
+
+*   barrier_init(unsigned int count, unsigned int *barrier_id, signed int timeout) – to initiate a barrier in the caller’s address space. 
+
+*   barrier_wait(unsigned int barrier_id) – to wait for a barrier synchronization.
+
+*   barrier_destroy(unsigned int barrier_id) – to destroyed the barrier of the id barrier_id.
+
+Since Linux system calls are statically defined and compiled into the kernel, the kernel was rebuilt with new system calls
+To demonstrate your barrier implementation, a testing program should be developed. The testing program forks two child processes. In each child process, there are 5 threads to exercise the 1 st barrier and additional 20 threads use the 2 nd barrier. Each thread sleeps a random amount of time.
+
+### [](#header-3) Output:
+*   New Kernal image.
+
+
+
+
+
+
+
+
+
+
+
+
