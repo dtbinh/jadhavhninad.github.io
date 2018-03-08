@@ -71,7 +71,7 @@ Linux has static and dynamic tracing facilities with which callback functions ca
 
 ### [](#header-3) Implementation:
 
-![alt text](https://github.com/jadhavhninad/Kprobes-on-RB-tree-kernel-data-structure/blob/master/kprobes.png "Implementation Schema")
+!["Implementation Schema"]({{ site.url }}/assets/images/kprobes.png)
 
 
 ### [](#header-3) Output:
