@@ -2,7 +2,9 @@
 layout: default
 ---
 
-# [](#header-2)Neural Network Classifier for MNIST DataSet
+Details about my recent projects and repositories that I am currently working on.
+
+## [](#header-2)Neural Network Classifier for MNIST DataSet
 [Link to Github Repo](https://github.com/jadhavhninad/Neural-Network-Classifier-for-MNIST-DataSet).
 
 ### [](#header-3) Goals:
@@ -20,7 +22,7 @@ To implement a two layer neural network for a binary classifier and a multi laye
 
 <br>
 <br>
-# [](#header-2)Latent Semantics Based Movie Recommender System
+## [](#header-2)Latent Semantics Based Movie Recommender System
 [Link to Github Repo](https://github.com/jadhavhninad/Latent-Semantics-Based-Movie-Recommender-System).
 
 ### [](#header-3) Goals:
@@ -42,11 +44,11 @@ A movie recommender system that takes user feedback to improve the recommendatio
 
 <br>
 <br>
-# [](#header-2)Linux Barrier Mechanism for multi threaded program
+## [](#header-2)Linux Barrier Mechanism for multi threaded program
 [Link to Github Repo](https://github.com/jadhavhninad/Linux-Barrier-Mechanism-for-multi-threaded-program).
 
 ### [](#header-3) Goals:
-Develope a barrier synchronization mechanism in Linux kernel which can be invoked by user processes via system call interface. The mechanism consists of 3 Linux kernel system calls which are resemble to the pthread barrier i.e barrier-init, barrier-wait, barrier_destroy
+To Develop a barrier synchronization mechanism in Linux kernel which can be invoked by user processes via system call interface. The mechanism consists of 3 Linux kernel system calls which are resemble to the pthread barrier i.e barrier-init, barrier-wait, barrier_destroy
 
 ### [](#header-3) Implementation:
 A barrier synchronization synchronization mechanism was developed in Linux kernel which can be invoked by user processes via system call interface. The mechanism consists of 3 Linux kernel system calls which are resemble to the pthread barrier:
