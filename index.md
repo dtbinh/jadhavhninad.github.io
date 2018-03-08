@@ -20,8 +20,7 @@ To implement a two layer neural network for a binary classifier and a multi laye
 *   Plot of train error vs iterations
 *   Plot of K-value vs Error (for kNN)
 
-<br>
-<br>
+<br><br>
 ## [](#header-2)Latent Semantics Based Movie Recommender System
 [Link to Github Repo](https://github.com/jadhavhninad/Latent-Semantics-Based-Movie-Recommender-System).
 
@@ -42,8 +41,7 @@ A movie recommender system that takes user feedback to improve the recommendatio
 *   The system outputs the revisions it suggests.
 *   User feedback is taken into account (either by revising the query or by re-ordering the results as appropriate) and a new set of ranked results are returned.
 
-<br>
-<br>
+<br><br>
 ## [](#header-2)Linux Barrier Mechanism for multi threaded program
 [Link to Github Repo](https://github.com/jadhavhninad/Linux-Barrier-Mechanism-for-multi-threaded-program).
 
@@ -59,13 +57,44 @@ A barrier synchronization synchronization mechanism was developed in Linux kerne
 
 *   barrier_destroy(unsigned int barrier_id) – to destroyed the barrier of the id barrier_id.
 
-Since Linux system calls are statically defined and compiled into the kernel, the kernel was rebuilt with new system calls
-To demonstrate your barrier implementation, a testing program should be developed. The testing program forks two child processes. In each child process, there are 5 threads to exercise the 1 st barrier and additional 20 threads use the 2 nd barrier. Each thread sleeps a random amount of time.
+Since Linux system calls are statically defined and compiled into the kernel, the kernel was rebuilt with new system calls. To demonstrate your barrier implementation, a testing program was developed. The testing program forks two child processes. In each child process, there are 5 threads to exercise the 1 st barrier and additional 20 threads use the 2nd barrier. Each thread sleeps a random amount of time.
 
 ### [](#header-3) Output:
 *   New Kernal image.
 
-<br>
+<br><br>
+## [](#header-2)Dynamic Instrumentation In Kernel Modules
+[Link to Github Repo](https://github.com/jadhavhninad/Kprobes-on-RB-tree-kernel-data-structure).
+
+### [](#header-3) Goals:
+Linux has static and dynamic tracing facilities with which callback functions can be invoked when trace points (or probes) are hit. A kernel module was developed that uses kprobe API to add and remove dynamic probes in any kernel programs. With the module’s device file interface, a user program can place a kprobe on a specific line of kernel code, access kernel information and variables.
+
+### [](#header-3) Implementation:
+
+![alt text](https://github.com/jadhavhninad/Kprobes-on-RB-tree-kernel-data-structure/kprobes.png "Implementation Schema")
+
+
+### [](#header-3) Output:
+Trace data items to be collected by kprobe handler
+*   the address of the kprobe, the pid of the running process that hits the probe, 
+*   time stamp (x86 TSC), 
+*   rb_object objects traversed in the RB tree while performing the corresponding functions
+
+<br><br>
+## [](#header-2)Machine Learning Repository for Different Datasets
+[Link to Github Repo](https://github.com/jadhavhninad/ML-for-Different-Datasets).
+
+### [](#header-3) Goals:
+To try different Machine Learning algorithms on datasets to get better understanding of their implementation and insights in performance
+
+### [](#header-3) Implementation:
+Each Dataset has its own directory which states the different algorithms used and their comparisons.
+
+### [](#header-3) Output:
+*   Error plots
+*   Behavior for different parameter values
+
+<br><br>
 
 ---
 
