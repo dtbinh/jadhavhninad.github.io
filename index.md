@@ -4,6 +4,26 @@ layout: default
 
 Details about my recent projects and repositories that I am currently working on.
 
+## [](#header-2)Formation Control of UAVs with a Fourth-Order Flight Dynamics
+[Link to Github Repo](https://github.com/jadhavhninad/Consensus_Based_Flight_Formation).
+
+### [](#header-3) Goals:
+To simulate consensus and leader-follower based formation control for a multi-UAV system with Fourth-Order flight dynamics. Also to Verify the robustness of the proposed algorithm in the paper : *Y. Kuriki and T. Namerikawa: Formation control of UAVs with a fourth-order flight dynamics, SICE Journal of Control, Mea- surement, and System Integration, Vol. 7, No. 2, pp. 74–81, 2014* by modifying different parameter like sampling time, UAV connection structure and weights to state parameters like velocity, position
+
+### [](#header-3) Implementation:
+*   The control law proposed in the paper was implemented in Matlab
+*   Effectiveness and Robustness of the alogrithm for different connections among UAVs was tested and an imporvement to the algorithm was proposed and implemented to handle some failure scenarios.
+*   UAV Convergence was tested for different sampling time and Beta (weights) values and the results were published in the final report
+*   The software implementation was enhanced to scale up the simulation for more UAVs by dynamically generating new positions and desired locations for each UAV added. This simple framework has been opensourced.
+
+### [](#header-3) Output:
+*   Control law algorithm enhancement
+*   Results that depict the robustness of the algorithm
+*   Software implementation framework.
+
+<br><br>
+
+
 ## [](#header-2)Neural Network Classifier for MNIST DataSet
 [Link to Github Repo](https://github.com/jadhavhninad/Neural-Network-Classifier-for-MNIST-DataSet).
 
