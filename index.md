@@ -33,17 +33,19 @@ Details about my recent projects and repositories that I am currently working on
 
 <br><br>
 
-## [](#header-2)Formation Control of UAVs with a Fourth-Order Flight Dynamics
+## [](#header-2)Formation Control of UAVs with a Fourth-Order Flight Dynamics and Model Predictive Control
 [Link to Github Repo](https://github.com/jadhavhninad/Consensus_Based_Flight_Formation).
 
 ### [](#header-3) Goals:
-To analyze & simulate consensus and leader-follower based formation control for a multi-UAV system with Fourth-Order flight dynamics. Also to Verify the robustness of the proposed algorithm in the paper : **Y. Kuriki and T. Namerikawa: Formation control of UAVs with a fourth-order flight dynamics, SICE Journal of Control, Mea- surement, and System Integration, Vol. 7, No. 2, pp. 74–81, 2014** by modifying different parameter like sampling time, UAV connection structure and weights to state parameters like velocity, position
+To analyze & simulate consensus and leader-follower based formation control for a multi-UAV system with Fourth-Order flight dynamics. Also to Verify the robustness of the proposed algorithm in the paper : **Y. Kuriki and T. Namerikawa: Formation control of UAVs with a fourth-order flight dynamics, SICE Journal of Control, Mea- surement, and System Integration, Vol. 7, No. 2, pp. 74–81, 2014** by modifying different parameter like sampling time, UAV connection structure and weights to state parameters like velocity, position. A more robust approach of using MPC for formation flight was also implemented based on the paper **Y. Kuriki and T. Namerikawa, Formation Control with Collision Avoidance for a Multi-UAV System Using Decentralized MPC and Consensus-Based Control**
 
 ### [](#header-3) Implementation:
-*   The control law proposed in the paper was implemented in Matlab
+*   The control law and MPC proposed in the papers were implemented in Matlab. A custom Cost function was developed for MPC using the Matlab MPC toolbox.
 *   Effectiveness and Robustness of the alogrithm for different connections among UAVs was tested and an imporvement to the algorithm was proposed and implemented to handle some failure scenarios.
 *   UAV Convergence was tested for different sampling time and Beta (weights) values and the results were published in the final report
 *   The software implementation was enhanced to scale up the simulation for more UAVs by dynamically generating new positions and desired locations for each UAV added. This simple framework has been opensourced.
+
+!["MPC based formation control"]({{ site.url }}/assets/images/mpc_image.gif)
 
 ### [](#header-3) Output:
 *   Control law algorithm enhancement
