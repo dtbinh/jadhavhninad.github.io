@@ -8,7 +8,7 @@ layout: default
 [Link to Github Repo](https://github.com/jadhavhninad/Business_Improvement_Recommender_System).
 
 ### [](#header-3) Goals: 
-*   In this project we provide a faster approach that combines different machine learning techniques to extract most frequently discussed negative topics/keywords that will provide business with insights regarding what they should be doing right based on what they are currently doing wrong. 
+*   In this project we leverage the _YELP dataset_ provide a faster approach that combines different machine learning techniques to extract most frequently discussed negative topics/keywords that will provide business with insights regarding what they should be doing right based on what they are currently doing wrong. 
 *   We use sentiment analysis to extract features from negative reviews to get higher business specific accuracy.
 
 ### [](#header-3) Implementation:
