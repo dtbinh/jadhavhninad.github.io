@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Details about my recent projects and repositories that I am currently working on.
+[Home](index.md)
 
 ## [](#header-2)Semi Supervised Learning Using Sparse Autoencoder
 [Link to Github Repo](https://github.com/jadhavhninad/Sparse_autoencoder).

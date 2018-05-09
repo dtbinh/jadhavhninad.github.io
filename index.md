@@ -12,11 +12,16 @@ Details about my recent projects and repositories that I am currently working on
 
 
 <br><br>
+## [](#header-1) Machine Learning
+*   These include recommender systems and implementation of generic supervised and semi-supervised machine learning algorithms like linear and logistic regression, K Nearest Neighbours, K-means etc. 
+
 [Check Projects](ML_projects.md)
 
 
 <br><br>
 
+## [](#header-1) Systems and Security
+*   Projects include linux systems calls, kernel programs and future projects on apache hadoop, software security
 
-[a relative link](Systems_DDS_Security.md)
+[Check Projects](Systems_DDS_Security.md)
 
