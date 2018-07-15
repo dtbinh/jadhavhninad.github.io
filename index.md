@@ -2,7 +2,9 @@
 layout: default
 ---
 
-Details about my recent projects and repositories that I am currently working on.
+I am a _Computer Science graduate_ student at _Arizona State University_ and interning at _10 Imaging Inc_ on a Deep Learning project to build an application that identifies symbols (language, mathematical) extracted from HD visual input. I am also an independent researcher at ASU's _REACT_ lab where, under the guidance of _Professor Stephanie Gil_, I am exploring an application of machine learning that uses sensor data (laser, camera, wi-fi) extracted from robot platforms for addressing _SLAM_. As part of this research I have had hands-on experience on _TURTLEBOT3_ , _ROS_ & _Opti-Track Motive_. 
+
+You can checkout details about my other projects below.
 
 ## [](#header-1) Deep Learning, Artificial Intelligence and Robotics:
 *   I have implemented some deep networks like Autoencoders using Keras/ Tensorflow, a numpy implementation of Multi-class neural networks and analysed reinforcement learning algorithm using openAI gym's MsPacman environment.
