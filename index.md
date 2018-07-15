@@ -6,7 +6,7 @@ I am a _Computer Science graduate_ student at _Arizona State University_ and an 
 
 I will be graduating in _Spring 2019_.
 
-You can checkout details about my other projects below.
+You can checkout the details of my other projects below.
 
 ## [](#header-1) Deep Learning, Artificial Intelligence and Robotics:
 *   I have implemented some deep networks like Autoencoders using Keras/ Tensorflow, a numpy implementation of Multi-class neural networks and analysed reinforcement learning algorithm using openAI gym's MsPacman environment.
