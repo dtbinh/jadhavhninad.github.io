@@ -2,7 +2,9 @@
 layout: default
 ---
 
-I am a _Computer Science graduate_ student at _Arizona State University_ and interning at _10 Imaging Inc_ on a Deep Learning project to build an application that identifies symbols (language, mathematical) extracted from HD visual input. I am also an independent researcher at ASU's _REACT_ lab where, under the guidance of _Professor Stephanie Gil_, I am exploring an application of machine learning that uses sensor data (laser, camera, wi-fi) extracted from robot platforms for addressing _SLAM_. As part of this research I have had hands-on experience on _TURTLEBOT3_ , _ROS_ & _Opti-Track Motive_. 
+I am a _Computer Science graduate_ student at _Arizona State University_ and an intern at _10 Imaging Inc_ where I am working a Deep Learning project to build an application that identifies symbols (language, mathematical) extracted from HD visual input. I am also an independent researcher at ASU's _REACT_ lab where, under the guidance of _Professor Stephanie Gil_, I am exploring an application of machine learning that uses sensor data (laser, camera, wi-fi) extracted from robot platforms for addressing _SLAM_. As part of this research I have had hands-on experience on _TURTLEBOT3_ , _ROS_ & _Opti-Track Motive_. 
+
+I will be graduating in _Spring 2019_.
 
 You can checkout details about my other projects below.
 
