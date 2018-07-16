@@ -69,7 +69,7 @@ To analyze & simulate consensus and leader-follower based formation control for 
 
 *   Performance of different neural network architectures is explored:
 
-!["CNN vs LSTM - Reward function"]({{ site.url }}/Plots/Reward_CNN_LSTM.png)
+!["CNN vs LSTM - Reward function"]({{ site.url }}/assets/images/Reward_CNN_LSTM.png)
 
 
 *   GPU based training was done using [Google Collaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)
